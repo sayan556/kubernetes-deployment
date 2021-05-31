@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx-controller
-          image: nginx
+          image: sayan556/kubernetes:newimage
   replicas: 3
   selector:
     matchLabels:
